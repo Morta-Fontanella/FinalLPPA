@@ -1,0 +1,53 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.menucontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    background: #1111118e;
+    padding: 2rem;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menubutton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 1rem;
+    padding: 0.2rem;
+    border-radius: 3px;
+    border: 1px solid white;
+    width: 15rem;
+}
+
+.menubutton a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.menubutton:hover {
+    cursor: pointer;
+    background: #FF310A;
+}
+
+.tab{
+    height: 32px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
