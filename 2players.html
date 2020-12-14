@@ -18,6 +18,8 @@
         <!--Styles-->
         <link rel="stylesheet" href="css/common.css">
         <link rel="stylesheet" href="css/2players.css">
+        <!--JS-->
+        <script type="text/javascript" src="js/2players.js"></script>
     </head>
     <body>
         <div class="wrapper">
@@ -28,27 +30,58 @@
                 </div>
             </div>
             <div class="content">
-            </div>
-            <div class="footer">
-                <div class="footerbuttons">
-                    <div class="footerbutton">
-                        <a href="https://github.com/Morta-Fontanella/FinalLPPA"><span
-                                class="icon-github"></span>GitHub</a>
-                    </div>
-                    <div class="footerbutton">
-                        <a href="https://www.linkedin.com/in/facundofontanella/"><span
-                                class="icon-linkedin2"></span>LinkedIn</a>
-                    </div>
-                    <div class="footerbutton">
-                        <a href="https://www.instagram.com/mortafontanella/"><span
-                                class="icon-instagram"></span>Instagram</a>
-                    </div>
-                    <div class="footerbutton">
-                        <a href="https://twitter.com/MortaFontanella"><span class="icon-twitter"></span>Twitter</a>
+                <div class="menucontainer">
+                    <div class="menu">
+                        <div class="textbox">
+                            <div class="title">
+                                <div class="playertitle">
+                                    <img class="tab" src="assets/svg/redtab.svg">
+                                    <p class="pp">Red Player</p>
+                                </div>
+                            </div>
+                            <input id="redname" class="input-field" type="text" />
+                            <div class="line"></div>
+                            <p class="error" id="rederror">*must be at least 3 letters</p>
+                        </div>
+                        <div class="textbox">
+                            <div class="title">
+                                <div class="playertitle">
+                                    <img class="tab" src="assets/svg/bluetab.svg">
+                                    <p class="pp">Blue Player</p>
+                                </div>
+                            </div>
+                            <input id="bluename" class="input-field" type="text" />
+                            <div class="line"></div>
+                            <p class="error" id="blueerror">*must be at least 3 letters</p>
+                        </div>
+                        <div class="divbutton">
+                            <button id="playbutton">
+                                <a>Play</a>
+                            </button>
+                        </div>
                     </div>
                 </div>
-                <a class="footerdesing">Desing by: Facundo Fontanella</a>
             </div>
+        </div>
+        <div class="footer">
+            <div class="footerbuttons">
+                <div class="footerbutton">
+                    <a href="https://github.com/Morta-Fontanella/FinalLPPA"><span class="icon-github"></span>GitHub</a>
+                </div>
+                <div class="footerbutton">
+                    <a href="https://www.linkedin.com/in/facundofontanella/"><span
+                            class="icon-linkedin2"></span>LinkedIn</a>
+                </div>
+                <div class="footerbutton">
+                    <a href="https://www.instagram.com/mortafontanella/"><span
+                            class="icon-instagram"></span>Instagram</a>
+                </div>
+                <div class="footerbutton">
+                    <a href="https://twitter.com/MortaFontanella"><span class="icon-twitter"></span>Twitter</a>
+                </div>
+            </div>
+            <a class="footerdesing">Desing by: Facundo Fontanella</a>
+        </div>
         </div>
     </body>
 </html>
